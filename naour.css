@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url(images/stream-binary-code-design-vector_53876-161364.avif),
+    linear-gradient(rgba(0, 0, 0.6), rgba(0, 0, 0.6));
+  background-position: center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  /* background-repeat: no-repeat; */
+}
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  padding: 15px;
+  background-color: black;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav a {
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
+nav a:hover {
+  color: aqua;
+}
+
+.section {
+  padding: 60px 0;
+  text-align: center;
+}
+.section img {
+  width: 120px;
+  border-radius: 50%;
+}
+.section h3 {
+  color: white;
+  margin-top: 20px;
+}
+.section p {
+  color: white;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.skills .first,
+.skills .second {
+    display: block;
+}
+.card h3 {
+    color: #00ff04;
+    font-family: VT323;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: .15em;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 10px 60px 10px 60px;
+    box-shadow: 1px 1px 1px 1px #000;
+    background-color: #0c0c0c;
+}
+
+.skills > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills p {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    padding: 20px;
+    background-color: black;
+    margin-top: 20px;
+}
+footer div {
+    color: white;
+    text-align: center;
+}
